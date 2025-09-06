@@ -1,9 +1,124 @@
-<section class="hero">
-  <img src="https://raw.githubusercontent.com/Takeeladobnins/Takeeladobnins.github.io/main/profile.jpg" 
-       alt="My Profile Picture" class="profile-pic">
-  <h2>Exploring the Future of Healthcare</h2>
-  <p>
-    Welcome! This site reflects my passion for Health Information Management and Technology — 
-    where data meets innovation to improve patient care and healthcare systems.
-  </p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Information & Technology</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f9fc;
+      color: #333;
+    }
+    header {
+      background: #004aad;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: #e8f0fe;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      color: #004aad;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 10px auto;
+      font-size: 1.1rem;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 300px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      color: #004aad;
+    }
+    footer {
+      background: #004aad;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Health Information & Technology</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Exploring the Future of Healthcare</h2>
+    <p>
+      Welcome! This site reflects my passion for Health Information Management and Technology — 
+      where data meets innovation to improve patient care and healthcare systems.
+    </p>
+  </section>
+
+  <section class="content">
+    <div class="card">
+      <h3>Health Information Management</h3>
+      <p>
+        Organizing and protecting medical records while ensuring compliance with healthcare standards.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Technology in Healthcare</h3>
+      <p>
+        Leveraging digital tools, data analytics, and cloud solutions to drive better health outcomes.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Research & Learning</h3>
+      <p>
+        Staying up-to-date on trends in medical informatics, EHR systems, and cybersecurity.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Health Information & Technology | Designed by Me</p>
+  </footer>
+
+</body>
+</html>
